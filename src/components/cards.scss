@@ -1,0 +1,25 @@
+.card{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 10px;
+    border-radius: 12px;
+    background-color: var(--gray-3);
+    transition: 0.2s linear;
+    animation: 0s ease;
+
+    &:hover{
+        background-color: var(--gray-hover);
+        cursor: pointer;
+    }
+
+    &:active{
+        background-color: var(--gray-1);
+        transition: 0.2s linear;
+        animation: 0s ease;
+    }
+
+    img{
+        width: 10%;
+    }
+}

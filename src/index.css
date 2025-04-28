@@ -1,0 +1,44 @@
+:root{
+    --gray-1: #141414;
+    --gray-2: #1F1F1F;
+    --gray-3: #333333;
+    --gray-hover: #666666;
+    --text-primary: #EEEEEE;
+    --text-sub: #979797;
+}
+
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: var(--text-primary);
+    margin: 0;
+}
+
+html {
+    margin: 0;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+body{
+    width: 100vw;
+    margin: 10% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--gray-1);
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--gray-3);
+    border-radius: 4px;
+    
+}
