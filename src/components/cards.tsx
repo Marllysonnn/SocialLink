@@ -27,7 +27,7 @@ const getSocialIcon = (url: string) => {
         }
     }
 
-    return 'https://upload.wikimedia.org/wikipedia/commons/4/4f/Icon_default.svg'; // Ícone padrão
+    return 'https://upload.wikimedia.org/wikipedia/commons/4/4f/Icon_default.svg';
 };
 
 const Cards = ({ link, name }: { link: string, name: string }) => {

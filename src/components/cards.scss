@@ -1,25 +1,14 @@
-.card{
+@import '../login/UserForm.scss';
+
+.card {
+    @extend .button-style;
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 15px;
     padding: 8px 10px;
     border-radius: 12px;
-    background-color: var(--gray-3);
-    transition: 0.2s linear;
-    animation: 0s ease;
 
-    &:hover{
-        background-color: var(--gray-hover);
-        cursor: pointer;
-    }
-
-    &:active{
-        background-color: var(--gray-1);
-        transition: 0.2s linear;
-        animation: 0s ease;
-    }
-
-    img{
+    img {
         width: 10%;
     }
 }

@@ -1,17 +1,23 @@
-:root{
+:root {
     --gray-1: #141414;
     --gray-2: #1F1F1F;
     --gray-3: #333333;
     --gray-hover: #666666;
     --text-primary: #EEEEEE;
     --text-sub: #979797;
+
+    
+    --font-size-base: 16px;
+    --font-size-small: 14px;
+    --font-size-smaller: 12px;
 }
 
-*{
+* {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
     color: var(--text-primary);
     margin: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -19,13 +25,14 @@ html {
     overflow: hidden;
     overflow-y: scroll;
 }
-body{
+
+body {
     width: 100vw;
-    margin: 10% auto;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: var(--gray-1);
+    font-size: var(--font-size-base);
 }
 
 ::-webkit-scrollbar {
@@ -40,5 +47,33 @@ body{
 ::-webkit-scrollbar-thumb {
     background: var(--gray-3);
     border-radius: 4px;
-    
+    transition: background 0.3s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--gray-hover);
+}
+
+
+@media (max-width: 768px) {
+    :root {
+        --font-size-base: 14px;
+        --font-size-small: 12px;
+    }
+
+    body {
+        font-size: var(--font-size-base);
+    }
+}
+
+@media (max-width: 480px) {
+    :root {
+        --font-size-base: 12px;
+        --font-size-small: 10px;
+    }
+
+    body {
+        width: 100vw;
+        font-size: var(--font-size-base);
+    }
 }
