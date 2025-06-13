@@ -1,6 +1,6 @@
 # Social Links Manager
 
-Este projeto é uma aplicação web para gerenciar links de redes sociais de usuários. Ele permite adicionar, visualizar e organizar links de diferentes plataformas sociais, além de oferecer suporte a autenticação e logout.
+Este projeto é uma aplicação web para gerenciar links de redes sociais de usuários. Ele permite adicionar, visualizar e organizar links de diferentes plataformas sociais, além de oferecer suporte a autenticação e logout. Também oferencendo responsividade para dispositivos mobile.
 
 ## 🚀 Funcionalidades
 
