@@ -162,7 +162,7 @@ const UserForm: React.FC = () => {
                     {isRegistering ? 'Cadastrar' : 'Login'}
                 </button>
                 <button type="button" className="google-login" onClick={loginWithGoogle}>
-                    <img src="src/assets/img/google.png" alt="Login com Google" />
+                    <img src="https://img.icons8.com/?size=512&id=17949&format=png" alt="Login com Google" />
                     <span>Entrar com Google</span>
                 </button>
                 <p onClick={() => setIsRegistering(!isRegistering)} style={{ cursor: 'pointer', marginTop: '1em' }}>
