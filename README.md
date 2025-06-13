@@ -11,6 +11,48 @@ Este projeto é uma aplicação web para gerenciar links de redes sociais de usu
 - Modal para adicionar links.
 - Suporte a múltiplas plataformas sociais.
 
+## Estrutura do Prjeto 
+
+SocialLink/
+├── index.html
+├── package.json
+├── README.md
+├── tsconfig.json
+├── tsconfig.app.json
+├── tsconfig.node.json
+├── vite.config.ts
+├── eslint.config.js
+├── .gitignore
+└── src/
+    ├── App.scss
+    ├── App.tsx
+    ├── index.css
+    ├── main.tsx
+    ├── vite-env.d.ts
+    ├── assets/
+    │   ├── react.svg
+    │   └── img/
+    │       ├── google.png
+    │       ├── instagram.png
+    │       └── login.png
+    ├── components/
+    │   ├── cards.scss
+    │   ├── cards.tsx
+    │   ├── modal.scss
+    │   └── modal.tsx
+    ├── constants/
+    │   └── platform.ts
+    ├── login/
+    │   ├── UserForm.scss
+    │   └── UserForm.tsx
+    ├── page/
+    │   ├── principal.scss
+    │   └── principal.tsx
+    ├── routes/
+    │   └── routes.tsx
+    └── service/
+        └── firebase.ts
+
 ## 🛠️ Tecnologias Utilizadas
 
 - **React**: Biblioteca para construção da interface.
