@@ -1,4 +1,4 @@
-@import '../login/UserForm.scss';
+@use '../login/UserForm.scss';
 
 .card {
     @extend .button-style;
